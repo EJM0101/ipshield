@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f5;
+  padding: 20px;
+}
+.container {
+  background: #fff;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.buttons .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #0056b3;
+}

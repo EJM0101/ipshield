@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ipshield
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node app.js
+    branch: main
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 18

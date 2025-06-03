@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dépôt – IPShield</title>
+</head>
+<body>
+<div class="container">
+  <h2>📥 Déposer une œuvre</h2>
+  <form action="/depot" method="POST" enctype="multipart/form-data">
+    <label>Email :</label><br>
+    <input type="email" name="email" required><br><br>
+    <label>Titre :</label><br>
+    <input type="text" name="titre" required><br><br>
+    <label>Fichier :</label><br>
+    <input type="file" name="fichier"><br><br>
+    <label>Ou texte :</label><br>
+    <textarea name="texte" rows="5" cols="50"></textarea><br><br>
+    <button type="submit">Générer certificat</button>
+  </form>
+</div>
+</body>
+</html>

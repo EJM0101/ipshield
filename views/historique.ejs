@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Historique – IPShield</title>
+</head>
+<body>
+<div class="container">
+  <h2>📜 Historique des dépôts</h2>
+  <ul>
+    <% depots.forEach(d => { %>
+      <li><strong><%= d.titre %></strong> – <%= d.email %> – <%= d.horodatage %></li>
+    <% }) %>
+  </ul>
+  <a href="/">🏠 Accueil</a>
+</div>
+</body>
+</html>
